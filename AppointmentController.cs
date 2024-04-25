@@ -1,17 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using Hairry.Common.Helpers;
-//using AutoMapper;
-using Hairry.Data.Interfaces;
-using Hairry.Entities.Entities;
-using Hairry.Entities.ViewModels.Appointments;
-using Hairry.HDR.Common;
-using Hairry.HDR.Hubs;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.SignalR;
-
+﻿
 namespace Hairry.HDR.Controllers
 {
     [ServiceFilter(typeof(SessionTimeoutAttribute))]
